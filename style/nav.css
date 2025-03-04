@@ -1,4 +1,4 @@
-/* navbar */
+/* 
 #navbar{
     background-color: rgb(248, 165, 194);
     padding-left: 60px;
@@ -6,6 +6,7 @@
     font-size: 1.2em !important;
  
 }
+
 nav .dropdown-menu{
     background-color: rgb(248, 165, 194);
 }
@@ -63,5 +64,70 @@ nav li a{
     #logo{
         font-size: 15px;
     }
+} */
+#navbar {
+    background-color:#f78fb3;
+    padding: 10px 20px;
+    font-family:  'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 1.2em !important;
 }
-/* navbar end */
+
+/* Logo */
+#logo {
+    font-size: 23px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Navbar Links */
+.nav-link {
+    color: white !important;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    margin-left: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    background-color: #17a2b8;
+    color: white !important;
+    border-radius: 5px;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+    background-color: rgb(248, 165, 194);
+    border: none;
+}
+.nav-item ul {
+    list-style: none;
+    padding: 0;
+    background-color: #f78fb3;
+    color: white;
+}
+.dropdown-item {
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    transition: 0.3s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #17a2b8;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Mobile Navbar */
+@media (max-width: 767px) {
+    .navbar-toggler {
+        display: block;
+    }
+    
+    .collapse.navbar-collapse {
+        background: rgb(248, 165, 194);
+        text-align: center;
+        padding: 10px 0;
+    }
+}

@@ -23,7 +23,7 @@
     flex-wrap: wrap;
 }
 
-.col-md-6 {
+/* .col-lg-6 {
     flex: 1;
     padding: 20px;
     max-width: 50%;
@@ -31,11 +31,12 @@
     flex-direction: column;
     justify-content: center;
     text-align: justify;
-}
+} */
 
 .card img {
     width: 100%;
     border-radius: 10px;
+    min-height: fit-content;
 }
 
 button {
@@ -54,6 +55,7 @@ button:hover {
 #about .card {
     background-color: #f78fb3;
     box-shadow: 0px 0px 5px black;
+    height: fit-content;
 }
 
 #about p {
@@ -83,6 +85,20 @@ button:hover {
     #about p {
         font-size: 20px;
     }
+    .card img{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media screen and (max-width:500px) {
+    #about p {
+        font-size: 15px;
+    }
+    .card{
+        width: 100%;
+        min-height: fit-content !important;
+    }
+    
 }
 
 /* about */

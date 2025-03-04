@@ -46,8 +46,8 @@
 @keyframes changetext{
     0%{content: "Birthday cake";}
     20%{content: "Chocolate cake";}
-    50%{content: "Party cake";}
-    60%{content: "Slice cake";}
+    50%{content: "Brownie cake";}
+    60%{content: "Cheese cake";}
     100%{content: "Cup cake";}
 }
 .content p{
