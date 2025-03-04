@@ -66,9 +66,9 @@ nav li a{
     }
 } */
 #navbar {
-    background-color:#f78fb3;
+    background-color: #f78fb3;
     padding: 10px 20px;
-    font-family:  'Dancing Script', cursive;
+    font-family: 'Dancing Script', cursive;
     font-weight: bold;
     font-size: 1.2em !important;
 }
@@ -100,12 +100,14 @@ nav li a{
     background-color: rgb(248, 165, 194);
     border: none;
 }
+
 .nav-item ul {
     list-style: none;
     padding: 0;
     background-color: #f78fb3;
     color: white;
 }
+
 .dropdown-item {
     color: white;
     font-weight: bold;
@@ -124,7 +126,7 @@ nav li a{
     .navbar-toggler {
         display: block;
     }
-    
+
     .collapse.navbar-collapse {
         background: rgb(248, 165, 194);
         text-align: center;
