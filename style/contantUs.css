@@ -40,9 +40,13 @@
 }
 
 .contact-box button {
-    background-color: #17a2b8;
+    background-color: #9e004d;
     border: none;
     padding: 10px 15px;
     color: white;
     font-weight: bold;
+}
+.contact-box button:hover {
+    background-color: #9e004d;
+    cursor: pointer;
 }

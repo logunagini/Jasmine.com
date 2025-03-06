@@ -42,7 +42,7 @@
     margin-top: 30px;
     padding: 20px 0;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.5rem !important;
     position: relative;
 }
 
@@ -70,8 +70,8 @@
 }
 
 .icons i:hover {
-    background-color: #17a2b8;
-    color: white;
+    /* background-color: #17a2b8; */
+    color:#9e004d;
 }
 
 /* Copyright Text */
