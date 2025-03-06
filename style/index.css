@@ -194,29 +194,6 @@ body {
     background-color: rgb(248, 165, 194);
 }
 
-#contact textarea::placeholder {
-    color: white;
-}
-
-#messagebtn {
-    text-align: center;
-}
-
-#messagebtn button {
-    width: 200px;
-    height: 30px;
-    letter-spacing: 3px;
-    font-weight: bold;
-    background: transparent;
-    border: 2px solid white;
-    color: white;
-    transition: 0.5s;
-    cursor: pointer;
-}
-
-#messagebtn button:hover {
-    background-color: #f78fb3;
-}
 
 /* contact */
 
