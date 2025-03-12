@@ -29,7 +29,7 @@
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
-.contact-box input {
+.contact-box input,textarea {
     background: transparent;
     color: white;
     border: 1px solid white;
@@ -38,7 +38,9 @@
 .contact-box input::placeholder {
     color: white;
 }
-
+.contact-box textarea::placeholder {
+    color: white !important;
+}
 .contact-box button {
     background-color: #9e004d;
     border: none;
@@ -49,4 +51,8 @@
 .contact-box button:hover {
     background-color: #9e004d;
     cursor: pointer;
+}
+.contact-box p {
+  /* Space between icon and text */
+            font-size: 24px !important; /* Adjust icon size */       
 }
